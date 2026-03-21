@@ -1,0 +1,79 @@
+# OSS Audit Project
+
+**Student Name:** [Your Name]  
+**Roll Number:** [Your Roll Number]  
+**Course:** Open Source Software  
+**Project:** The Open Source Audit Capstone Project
+
+---
+
+## Project Overview
+
+This project conducts a structured audit of an open-source software project, examining its origin story, licensing philosophy, ethical implications, Linux footprint, and ecosystem. The audit demonstrates understanding of open-source principles through both written analysis and practical shell scripting.
+
+**Chosen Software:** Python 
+**License:** Nandni Nirmal
+**Category:** open source software
+
+---
+==========================================
+      Welcome to Linux System
+==========================================
+
+Distribution: Ubuntu 22.04.3 LTS
+Kernel Version: 5.15.0-91-generic
+Current User: student
+Home Directory: /home/student
+System Uptime: 2 days, 3 hours, 15 minutes
+Current Date/Time: Monday, November 20, 2024 14:30:25
+Operating System License: GNU General Public License v2.0
+==========================================
+==========================================
+      FOSS PACKAGE INSPECTOR
+==========================================
+
+httpd is installed.
+
+Version: 2.4.52
+License: Apache 2.0
+Summary: Apache HTTP Server
+
+Philosophy Notes:
+Apache: the web server that built the open internet
+Started in 1995, Apache showed that open source could power enterprise web servers
+==========================================
+      DIRECTORY AUDIT REPORT
+==========================================
+
+/etc => Permissions: drwxr-xr-x root root | Size: 12M
+/var/log => Permissions: drwxr-xr-x root root | Size: 850M
+/home => Permissions: drwxr-xr-x root root | Size: 4.2G
+/usr/bin => Permissions: drwxr-xr-x root root | Size: 1.1G
+/tmp => Permissions: drwxrwxrwt root root | Size: 1.2M
+==========================================
+      LOG FILE ANALYZER
+==========================================
+
+Enter log file path (or press Enter for default):
+Log file: /var/log/syslog
+
+Enter keyword to search (default: error): error
+
+Keyword 'error' found 127 times in /var/log/syslog
+
+Last 5 matching lines:
+----------------------------------------
+Nov 20 14:30:25 localhost kernel: Error: disk read failure
+Nov 20 14:31:02 localhost systemd: Failed to start Service
+----------------------------------------
+==========================================
+   OPEN SOURCE MANIFESTO GENERATOR
+==========================================
+
+Answer three questions to generate your manifesto.
+
+1. Name one open-source tool you use every day: vim
+2. In one word, what does 'freedom' mean to you? choice
+3. Name one thing you would build and share freely: educational platform
+
+Manifesto saved to manifesto_student.txt
